@@ -22,6 +22,7 @@ function draw() {
   estiloE1();
   //posX posY width height 
   ellipse(mouseX,mouseY,diametro,diametro);
+  triangle(30, 75, 58, 20, 86, 75);
   
   diametro = diametro + 1;
 }
